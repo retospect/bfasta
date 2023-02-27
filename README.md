@@ -3,7 +3,7 @@
 
 # FastA reader
 
-Dr B.'s FastA reader.
+Very simple fastA reader.
 
 ```python
 from bfasta import FastAreader
@@ -19,3 +19,5 @@ for header, seq in reader.readFasta():
     # header and seq are now strings here
     print(header)
 ```
+
+Originally by Dr. B. 
