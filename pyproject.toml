@@ -5,12 +5,12 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "bfasta"
 authors = ["Reto Stamm", "Dr. B."]
-description = "Dr B.s fastA reader"
+description = "Simple fasta reader with no dependencies"
 readme = "README.md"
 version = "0.0.3"
-keywords = ["example"]
+keywords = ["fasta", "genomics", "bioinformatics", "bio"]
 license = "GPL-3"
-classifiers = [ "Programming Language :: Python :: 3", ]
+classifiers = [ "Programming Language :: Python", ]
 homepage="https://github.com/retospect/bfasta"
 
 [tool.bumpver]
