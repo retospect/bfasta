@@ -20,4 +20,14 @@ for header, seq in reader.readFasta():
     print(header)
 ```
 
+## Install
+
+Before trying the code above, in your terminal, type 
+
+```shell
+pip install bfasta
+```
+
+## Origins
+
 Originally by Dr. B. 
