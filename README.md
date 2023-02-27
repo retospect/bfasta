@@ -10,14 +10,17 @@ from bfasta import FastAreader
 
 reader = FastAreader("myFile.fa")
 
-# If you want to just read the first entry:
+# If you want to just read the first entry
 header, seq = next(reader.readFasta())
+# header and seq are now simple strings
+print(header)
+print(seq)
 
-# Read all the entries
 # If you want to read all the entries
 for header, seq in reader.readFasta():
-    # header and seq are now strings here
     print(header)
+    # process further
+
 ```
 
 ## Install
