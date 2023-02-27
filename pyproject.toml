@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "bfasta"
-authors = ["Reto Stamm", "Dr B."]
+authors = ["Reto Stamm", "Dr. B."]
 description = "Dr B.s fastA reader"
 readme = "README.md"
 version = "0.0.3"
