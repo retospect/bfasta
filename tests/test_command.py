@@ -1,2 +1,5 @@
+from bfasta import fasta
+
+
 def test_commandline_installed():
-    pass
+    fasta.read("test.fa")
